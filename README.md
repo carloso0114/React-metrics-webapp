@@ -52,6 +52,7 @@ Feel free to check the [issues page](https://github.com/carloso0114/React-metric
 ## :grey_exclamation: Acknowledgments
 
 - [Microverse](https://www.microverse.org/)
+- Original design idea by Nelson Sakwa on Behance.
 
 ## 📝 License
 
