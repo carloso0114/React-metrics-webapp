@@ -1,76 +1,58 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Metrics Webapp Captstone Project
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+Web application. To do...
 
 
-## Getting Started
+## :red_circle: Live Demo
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+- Todo...
 
+## :hammer: Built With
 
-To get a local copy up and running follow these simple example steps.
+- React and Javascript.
 
-### Prerequisites
+To get a local copy up and running follow these simple steps:
 
-### Setup
+1. Go to the [repository page](https://github.com/carloso0114/React-metrics-webapp).
+2. Press the "Code" button and copy the link.
+3. Clone it using git command `git clone <link>`.
+4. In the project folder run `npm install`
+5. Then run in the terminal `npm run start` (for development enviroment) or `npm run build`
 
-### Install
+## :blue_book: Learning Objectives
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+- Use React documentation.
+- Use React components.
+- Use React props.
+- Use React Router.
+- Connect React and Redux.
+- Handle events in a React app.
+- Write unit tests with React Testing Library.
+- Use styles in a React app.
+- Use React life cycle methods.
+- Apply React best practices and language style guides in code.
+- Use store, actions and reducers in React.
+- Perform a code review for a team member.
 
 ## Authors
 
-👤 **Author1**
+👤 **Carloso0114**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@carloso0114](https://github.com/carloso0114)
+- LinkedIn: [Carlos Ospina](https://www.linkedin.com/in/carlosospina/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
+## 🤝 :raised_hand: :raised_hand: Contributions
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/carloso0114/React-metrics-webapp/issues).
 
-## Show your support
+## :grey_exclamation: Acknowledgments
 
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- [Microverse](https://www.microverse.org/)
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE) licensed.
