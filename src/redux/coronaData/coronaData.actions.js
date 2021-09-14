@@ -1,6 +1,10 @@
 /* eslint-disable linebreak-style */
+import dayjs from 'dayjs';
 import axios from 'axios';
 import FETCH_DATA from './coronaData.types';
+
+const today = dayjs().subtract(2, 'day').format('YYYY-MM-DD');
+const covidAPI = `https://api.covid19tracking.narrativa.com/api/${today}`;
 
 export const addData = (data) => ({
   type: FETCH_DATA,
@@ -8,6 +12,6 @@ export const addData = (data) => ({
 });
 
 export const fetchData = () => async (dispatch) => {
-  const res = await axios.get('https://api.covid19tracking.narrativa.com/api/2020-03-22/country/spain');
+  const res = await axios.get(covidAPI);
   dispatch(addData(res.data));
 };

@@ -1,4 +1,7 @@
+import dayjs from 'dayjs';
 import FETCH_DATA from './coronaData.types';
+
+const today = dayjs().subtract(2, 'day').format('YYYY-MM-DD');
 
 const initialData = [
 ];
@@ -8,11 +11,9 @@ const DataReducer = (state = initialData, action) => {
 
   switch (action.type) {
     case FETCH_DATA: {
-      const newData = [...action.payload];
-      const filterData = newData.map((data) => ({
-        regions: data.name,
-      }));
-      return [...dataList, ...filterData];
+      const { ...countries } = action.payload.dates[today].countries;
+      dataList.push(countries);
+      return dataList;
     }
     default:
       return dataList;
