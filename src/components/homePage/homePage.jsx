@@ -7,7 +7,7 @@ const homePage = (props) => {
     <div>
       <h1>Countries</h1>
       {data.map((data) => (
-        <Cards data={data} key={data.id} />
+        <Cards data={data} key={data[1].id} />
       ))}
     </div>
   );
