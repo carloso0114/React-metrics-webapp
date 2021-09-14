@@ -1,11 +1,18 @@
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from 'react';
+import HomePage from './homePage/homePage';
 import './App.css';
+import { fetchData } from '../redux/coronaData/coronaData.actions';
 
-function App() {
+export default function App() {
+  const { dataReducer } = useSelector((state) => state);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchData());
+  }, []);
   return (
     <div>
-      <h1>Hello World</h1>
+      <HomePage data={dataReducer} />
     </div>
   );
 }
-
-export default App;
