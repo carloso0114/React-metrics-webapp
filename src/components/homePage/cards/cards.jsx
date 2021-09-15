@@ -1,8 +1,13 @@
 const cards = (props) => {
   const { data } = props;
   return (
-    <div>
-      <h1>{data[0]}</h1>
+    <div className="col-6">
+      <h1>{data[0].toUpperCase()}</h1>
+      <p>
+        Today cases confirmed:
+        {' '}
+        <span>{data[1].today_confirmed}</span>
+      </p>
     </div>
   );
 };

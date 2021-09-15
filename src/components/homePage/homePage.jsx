@@ -4,11 +4,12 @@ const homePage = (props) => {
   const { data } = props;
 
   return (
-    <div>
-      <h1>Countries</h1>
-      {data.map((data) => (
-        <Cards data={data} key={data[1].id} />
-      ))}
+    <div className="container">
+      <div className="row">
+        {data.map((data) => (
+          <Cards data={data} key={data[1].id} />
+        ))}
+      </div>
     </div>
   );
 };
