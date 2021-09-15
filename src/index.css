@@ -5,18 +5,25 @@ html, body {
   padding: 0; 
 }     
 body {
-  background-color: #4369B2;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
-  color: white;
 }
 
 h1 {
-  font-family: 'Lato-Regular';
+  font-family: 'Lato-Regular', 'Courier New', Courier, monospace;
+}
+
+p, span {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@font-face {
+  font-family: 'GillSansBold';
+  src: url(/src/fonts/GillSansBold.otf)
 }
 
 @font-face {
   font-family: 'Lato-Regular';
-  src: url(/src/fonts/Gill\ Sans.otf)
+  src: url(/src/fonts/Lato-Regular.ttf)
 }
