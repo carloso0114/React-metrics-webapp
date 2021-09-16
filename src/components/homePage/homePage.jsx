@@ -4,7 +4,7 @@ const homePage = (props) => {
   const { data } = props;
 
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="row">
         {data.map((data) => (
           <Cards data={data} key={data[1].id} />

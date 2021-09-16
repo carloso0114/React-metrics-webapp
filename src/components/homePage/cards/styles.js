@@ -8,4 +8,6 @@ export const CardBlock = styled.div`
 
 export const CardtTitle = styled.h1`
   font-size: 1rem;
+  text-decoration: underline;
+  font-weight: bold;
 `;
