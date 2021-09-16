@@ -11,6 +11,6 @@ export const BackButton = styled.span`
 
 export const Nav = styled.nav`
   font-size: 1rem;
-  background-color: #35548B;
+  background-color: #4369B2;
   padding: 5px 5px 5px 5px;
 `;

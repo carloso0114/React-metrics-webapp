@@ -1,8 +1,11 @@
-import { DivBar, Nav, BackButton } from './styles';
+/* eslint-disable no-unused-vars */
+import { DivBar, InputField, Label } from './styles';
 
 const searchBar = () => (
-  <div className="navbar">
-  </div>
+  <DivBar>
+    <Label>Search by Country</Label>
+    <InputField className="ms-2" placeholder="Enter country name" />
+  </DivBar>
 );
 
 export default searchBar;
