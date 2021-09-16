@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
-export const Title = styled.span`
+export const DivBar = styled.div`
   font-size: 1rem;
-  font-weight: bold;
 `;
 
 export const BackButton = styled.span`

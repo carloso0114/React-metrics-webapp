@@ -5,8 +5,8 @@ const navBar = () => (
     <BackButton> &lt; Home</BackButton>
     <Title>COVID data by Countries</Title>
     <span>
-      <i className="bi bi-mic-fill h4 me-4" />
-      <i className="bi bi-gear-fill h4 me-4" />
+      <i className="bi bi-mic-fill h4 me-3" />
+      <i className="bi bi-gear-fill h4" />
     </span>
   </Nav>
 );
