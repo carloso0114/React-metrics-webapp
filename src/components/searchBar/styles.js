@@ -5,10 +5,10 @@ export const DivBar = styled.div`
   background-color: #35548B;
 `;
 
-export const InputField = styled.input`
+export const Label = styled.label`
 
 `;
 
-export const Label = styled.label`
+export const InputField = styled.input`
 
 `;

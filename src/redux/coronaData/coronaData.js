@@ -1,5 +1,5 @@
 import dayjs from 'dayjs';
-import FETCH_DATA from './coronaData.types';
+import { FETCH_DATA, GET_FILTERED } from './coronaData.types';
 
 const today = dayjs().subtract(2, 'day').format('YYYY-MM-DD');
 
@@ -14,6 +14,12 @@ const DataReducer = (state = initialData, action) => {
         dataList.push(e);
       });
       return dataList;
+    }
+    case GET_FILTERED: {
+      const filteredDataList = dataList.filter((el) => (
+        el[1].id.includes('alg')
+      ));
+      return filteredDataList;
     }
     default:
       return dataList;

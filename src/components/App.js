@@ -23,7 +23,7 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <NavBar />
-            <SearchBar />
+            <SearchBar data={dataReducer} />
             <HomePage data={dataReducer} />
           </Route>
           { dataReducer.map((data) => (
