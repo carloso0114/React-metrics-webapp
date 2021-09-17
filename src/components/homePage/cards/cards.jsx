@@ -1,12 +1,13 @@
-import { CardBlock, CardtTitle } from './styles';
+/* eslint-disable import/named */
+import { CardBlock, StyledLink } from './styles';
 
 const cards = (props) => {
   const { data } = props;
   return (
     <CardBlock className="col-6">
-      <CardtTitle>{data[0].toUpperCase()}</CardtTitle>
+      <StyledLink to={`/${data[0].toLowerCase()}`}>{data[0].toUpperCase()}</StyledLink>
       <p>
-        Today cases confirmed:
+        Cases confirmed:
         {' '}
         <span>{data[1].today_confirmed}</span>
       </p>
