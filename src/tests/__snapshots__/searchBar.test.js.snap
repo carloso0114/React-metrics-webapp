@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="sc-bdfBQB lSopt"
+>
+  <label
+    className="sc-gsTEea bplxbl"
+  >
+    Search 
+  </label>
+  <input
+    className="sc-dlfnuX fVXMgl ms-2"
+    name="search"
+    placeholder="Enter country name"
+    type="text"
+  />
+</div>
+`;

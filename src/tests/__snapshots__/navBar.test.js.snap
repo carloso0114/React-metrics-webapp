@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav
+  className="sc-gsTEea eVUrAJ navbar"
+>
+  <a
+    className="sc-dlfnuX habHiA"
+    href="/"
+    onClick={[Function]}
+  >
+     &lt; Home
+  </a>
+  <span
+    className="sc-bdfBQB gqyrhZ"
+  >
+    COVID Analitycs Data
+  </span>
+  <span>
+    <i
+      className="bi bi-mic-fill h4 me-3"
+    />
+    <i
+      className="bi bi-gear-fill h4"
+    />
+  </span>
+</nav>
+`;
