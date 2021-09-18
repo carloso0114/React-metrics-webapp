@@ -1,43 +1,44 @@
 import NavBar from '../navBar/navBar';
-import { Info, Title } from './styles';
+import {
+  Card, Title, Info, Card2,
+} from './styles';
 
 const details = (props) => {
   const { data } = props;
   return (
     <div>
       <NavBar />
-      <div className="container-fluid text-center">
-        <Title>{data[0]}</Title>
-        <Info>
+      <div>
+        <Title className="text-end">{data[0]}</Title>
+        <Card>
           Total deaths:
-          {' '}
-          {data[1].today_deaths}
-        </Info>
-        <Info>
+          <Info className="ms-auto">{data[1].today_deaths}</Info>
+        </Card>
+        <Card2>
           Today new deaths:
           {' '}
-          {data[1].today_new_deaths}
-        </Info>
-        <Info>
+          <Info className="ms-auto">{data[1].today_new_deaths}</Info>
+        </Card2>
+        <Card>
           Today new confirmed cases:
           {' '}
-          {data[1].today_new_confirmed}
-        </Info>
-        <Info>
+          <Info className="ms-auto">{data[1].today_new_confirmed}</Info>
+        </Card>
+        <Card2>
           Total recovered:
           {' '}
-          {data[1].today_recovered}
-        </Info>
-        <Info>
+          <Info className="ms-auto">{data[1].today_recovered}</Info>
+        </Card2>
+        <Card>
           Today new recovered:
           {' '}
-          {data[1].today_new_recovered}
-        </Info>
-        <Info>
+          <Info className="ms-auto">{data[1].today_new_recovered}</Info>
+        </Card>
+        <Card2>
           Source of information:
           {' '}
-          {data[1].source}
-        </Info>
+          <Info className="ms-auto">{data[1].source}</Info>
+        </Card2>
       </div>
     </div>
   );

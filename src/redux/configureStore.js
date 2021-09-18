@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import { createStore, combineReducers, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import dataReducer from './coronaData/coronaData';

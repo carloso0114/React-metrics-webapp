@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 import dayjs from 'dayjs';
 import axios from 'axios';
 import FETCH_DATA from './coronaData.types';
