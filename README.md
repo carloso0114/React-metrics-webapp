@@ -5,10 +5,11 @@
 Web application that fetch big ammount of data from API and populate them in a component depending on the route.
 
  ![screenshot](./app_screenshot.png)  
-
+- [Loom Video](https://www.loom.com/share/7e82368bfcb348428c0953ddb1691b0c)
 ## :red_circle: Live Demo
 
 - [Netlify](https://covid-metrics-data.netlify.app/) 
+
 
 ## :hammer: Built With
 
