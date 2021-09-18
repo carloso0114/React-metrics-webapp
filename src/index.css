@@ -1,27 +1,29 @@
-html {  
-  margin: 0;  
-  padding: 0; 
-}     
+html {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-size: 12px;
   color: white;
-  background-color: #4369B2;
+  background-color: #4369b2;
 }
 
 h1 {
   font-family: 'Lato-Regular', 'Courier New', Courier, monospace;
 }
 
-p, span {
+p,
+span {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face {
   font-family: 'GillSansBold';
-  src: url(/src/fonts/GillSansBold.otf)
+  src: url(/src/fonts/GillSansBold.otf);
 }
 
 @font-face {
   font-family: 'Lato-Regular';
-  src: url(/src/fonts/Lato-Regular.ttf)
+  src: url(/src/fonts/Lato-Regular.ttf);
 }
