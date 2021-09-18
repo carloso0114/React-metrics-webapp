@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <nav
+    className="sc-gKseQn hBAThJ navbar"
+  >
+    <a
+      className="sc-iBPTik dNajSQ"
+      href="/"
+      onClick={[Function]}
+    >
+       &lt; Home
+    </a>
+    <span
+      className="sc-jSgvzq gOpCnz"
+    >
+      COVID Analitycs Data
+    </span>
+    <span>
+      <i
+        className="bi bi-mic-fill h4 me-3"
+      />
+      <i
+        className="bi bi-gear-fill h4"
+      />
+    </span>
+  </nav>
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="sc-bdfBQB lSopt"
+    >
+      <label
+        className="sc-gsTEea bplxbl"
+      >
+        Search 
+      </label>
+      <input
+        className="sc-dlfnuX fVXMgl ms-2"
+        name="search"
+        onChange={[Function]}
+        placeholder="Enter country name"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="row"
+    />
+  </div>
+</div>
+`;
