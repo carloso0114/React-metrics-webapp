@@ -9,7 +9,6 @@ import HomePage from './homePage/homePage';
 import Details from './details.jsx/details';
 import { fetchData } from '../redux/coronaData/coronaData.actions';
 import NavBar from './navBar/navBar';
-import SearchBar from './searchBar/searchBar';
 
 export default function App() {
   const { dataReducer } = useSelector((state) => state);
@@ -23,7 +22,6 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <NavBar />
-            <SearchBar data={dataReducer} />
             <HomePage data={dataReducer} />
           </Route>
           { dataReducer.map((data) => (

@@ -1,4 +1,4 @@
-/* eslint-disable import/named */
+/* eslint-disable no-unused-vars */
 import { CardBlock, StyledLink } from './styles';
 
 const cards = (props) => {
