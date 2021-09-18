@@ -2,12 +2,13 @@
 
 # Metrics Webapp Captstone Project
 
-Web application. To do...
+Web application that fetch big ammount of data from API and populate them in a component depending on the route.
 
+ ![screenshot](./app_screenshot.png)  
 
 ## :red_circle: Live Demo
 
-- Todo...
+- [Netlify](https://covid-metrics-data.netlify.app/) 
 
 ## :hammer: Built With
 

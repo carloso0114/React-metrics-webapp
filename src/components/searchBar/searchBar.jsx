@@ -2,7 +2,7 @@ import { DivBar, InputField, Label } from './styles';
 
 const searchBar = ({ value, handler }) => (
   <DivBar>
-    <Label>Search by Country</Label>
+    <Label>Search </Label>
     <InputField
       type="text"
       name="search"
