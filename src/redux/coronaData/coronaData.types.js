@@ -1,2 +1,3 @@
-export const FETCH_DATA = 'FETCH_DATA';
-export const GET_FILTERED = 'FILTERED_DATA';
+const FETCH_DATA = 'FETCH_DATA';
+
+export default FETCH_DATA;
